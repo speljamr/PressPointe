@@ -1,0 +1,62 @@
+############################################################################ 
+ 
+Project: PressPointe 
+Copyright: ©copyright 2003,2004 Timothy J. Finucane 
+Author: Timothy J. Finucane <speljamr@speljamr.com> 
+
+############################################################################
+
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful, 
+but WITHOUT ANY WARRANTY; without even the implied warranty of 
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU 
+General Public License for more details.
+
+You should have received a copy of the GNU General Public License along 
+with this program; if not, write to the Free Software Foundation, Inc., 
+59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+
+############################################################################
+ 
+############################################################################ 
+ 
+Version: 0.10.00
+ 
+August 2003 - Stable version 0.10.00 was completed sometime in August 2003 
+              for the www.akronbugle.com website. No past history was recorded 
+              because the project was not being considered for release. 
+ 
+############################################################################ 
+ 
+Version: 0.20.00 
+ 
+09/14/2003 - Work began on open source version for upcoming release. 
+ 
+09/26/2003 - Completed addition of database abstraction layer. 
+ 
+############################################################################
+
+Version: 0.21.00 
+ 
+04/12/2004 -  Complete restructuring of objects. All child objects must now 
+              be called through the parent object (ppublisher.class.php).
+              All files for the web site rendering were modified to match
+              the new structure of the objects. This change is experimental, 
+              but may become permenant.
+ 
+############################################################################
+
+Version: 0.22.00 
+ 
+10/30/2004 - Added sections.php to allow for the adding, editing and
+             sorting of PresPointe sections. 
+           - Made changes to make the application more secure, including:
+             deallocation of globals created by 'register_globals on' and
+             clearing slashes added by magic quotes. Also added code to
+             properly escape values submitted in SQL queries.
+ 
+############################################################################

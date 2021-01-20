@@ -4,7 +4,7 @@
 # Project: PressPointe 
 # Filename: db.class.php 
 # File Version: 1.00.00 
-# Copyright: ©copyright 2004 Timothy J. Finucane 
+# Copyright: Â©copyright 2004 Timothy J. Finucane 
 # Author: Timothy J. Finucane <speljamr@speljamr.com> 
 # 
 ############################################################################ 
@@ -226,11 +226,7 @@ class db {
 	function GetDatasetArray($strSQL) {	
 	
 		$objConn = $this->OpenDBConnection(); 
-		
-#echo "<pre>/".$strSQL."/</pre><br>";
 		$arrResult = $objConn->GetAll($strSQL); 
-		#echo count($arrResult)."::";
-		#echo $arrResult;
 				
 		if ($objConn->ErrorNo() > 0) { 
 				

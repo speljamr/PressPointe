@@ -1,0 +1,319 @@
+body {background-color: #FFFFFF;
+      font-weight: 400;
+      font-size: 11pt;
+      font-family: Arial,Tahoma,sans-serif;
+      font-style: normal;
+      letter-spacing: 0.02em;}
+      
+p {font-weight: 400;
+   font-size: 11pt;
+   font-family: "Times New Roman",serif;
+   font-style: normal;
+   letter-spacing: 0.02em;
+   text-align: justify;
+   color: #000000;}
+   	
+cite {font-style: normal;}
+   	
+b, strong {font-weight: 700;
+           letter-spacing: 0.02em;}
+   
+i, em {font-weight: 400;
+       font-style: italic;
+       letter-spacing: 0.02em;}
+    
+ul, li {font-family: "Times New Roman",serif;
+    font-weight: 400;
+    font-size: 11pt;
+    letter-spacing: 0.02em;}
+       
+u {text-decoration: underline;
+   letter-spacing: 0.02em;}
+
+code {font-family: Courier, "Courier New", fixed-width, monospace;
+      font-size: 9px;}
+      
+pre {font-family: Courier, "Courier New", fixed-width, monospace;
+     font-size: 9px;}
+     
+/* Header Styles */
+   
+h1 {font-weight: 700;
+    font-size: 16pt;
+    font-family: Arial,Tahoma,sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #000000;}
+    
+h2 {font-weight: 700;
+    font-size: 13pt;
+    font-family: Arial,Tahoma,sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #000000;}
+    
+h3 {font-weight: 700;
+    font-size: 12pt;
+    font-family: Arial,Tahoma,sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #000000;}
+    
+h4 {font-weight: 700;
+    font-size: 11pt;
+    font-family: Arial,Tahoma,sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #000000;}
+    
+h5 {font-weight: 700;
+    font-size: 11pt;
+    font-family: Arial,Tahoma,sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #000000;}
+    
+h6 {font-weight: 700;
+    font-size: 11pt;
+    font-family: Arial,Tahoma,sans-serif;
+    font-style: normal;
+    letter-spacing: 0.02em;
+    color: #000000;}
+    
+/* Horizontal Line Styles */
+
+hr {color: #000000;
+    height: 1px; 
+    margin-left: 5px;
+    margin-right: 5px;}
+    
+/* Form Styles */
+
+button, input, select, textarea {font-family: Arial,Tahoma,sans-serif;
+			 	 font-size: 10px;
+			 	 background-color: #E6E6E6;
+			 	 border : 1px solid #000000 ;
+			 	 vertical-align:middle;}
+    
+/* Table Styles */
+
+td {font-family: Arial,Tahoma,sans-serif;
+    font-size : 10px;
+    font-weight: 400;}
+
+td.Content {font-weight: 400;
+   	    font-size: 11px;
+   	    font-family: Arial,Tahoma,sans-serif;
+   	    font-style: normal;
+   	    letter-spacing: 0.02em;
+   	    text-align: justify;
+   	    color: #000000;}
+   	    
+table.search td {padding : 0px 5px 0px 5px ;}
+   	
+td.searchSel {background-color : #eeeeee;
+			  border : 1px solid #000000;}
+   	    
+table.data {border-top: 1px solid #000000;
+	    border-left: 1px solid #000000;
+	    font-size: 11px;
+	    border-collapse: collapse;}
+
+table.data td {border-right: 1px solid #000000;
+	       border-bottom: 1px solid #000000;
+	       font-family: Arial,Tahoma,sans-serif;
+	       font-size: 11px;
+	       font-weight: 400;}
+
+table.data th {border-right: 1px solid #000000;
+	       border-bottom: 1px solid #000000;
+	       background-color: #990000;
+	       font-family: Arial,Tahoma,sans-serif;
+	       font-size: 12px;
+	       font-weight: 700;
+	       color: #FFFFFF;}
+	       
+table.breakingnews {border: 1px solid #000000;
+	    	    font-size: 11px;
+	    	    border-collapse: collapse;}
+	    	    
+table.breakingnews th {background-color: #990000;
+	       	       font-family: Arial,Tahoma,sans-serif;
+	       	       font-size: 18px;
+	       	       font-weight: 700;
+	       	       color: #FFFFFF;}
+	       	       
+table.breakingnews td {font-family: Arial,Tahoma,sans-serif;
+	       	       font-size: 11px;
+	       	       font-weight: 400;}
+	       	       
+table.storyimage {border: 1px solid #000000;
+	          margin: 0px 0px 10px 10px;
+	     	  padding: 5px 5px 5px 5px;
+	     	  border-collapse: collapse;
+	     	  background-color: #E6E6E6;}
+	       
+/* Image Styles */
+
+img.summary {border: 1px solid #000000;}
+   	    
+/* Custom Classes */
+
+.SideNav{font-size: 11pt;
+	 text-align: right;
+    	 margin: 8px 0px;
+    	 color: #ffffff;
+    	 line-height: 120%;
+    	 font-family: Tahoma,sans-serif;
+    	 font-weight: 700;}
+    
+.SideNavSel {font-size: 11pt;
+	     text-align: right;
+    	     background: #E6E6E6;
+    	     margin: 8px 0px;
+    	     color: #6bcc99;
+    	     line-height: 120%;
+    	     font-family: Tahoma,sans-serif;
+    	     font-weight: 700;
+    	     border-top: 1px solid #000000;
+    	     border-bottom: 1px solid #000000;}
+    	     
+.SideLogon {background: #595959;
+    	    border-top: 1px solid #000000;
+    	    border-bottom: 1px solid #000000;}
+    	    
+.SideSearch {background: #595959;
+    	     border-bottom: 1px solid #000000;}
+    	     
+.fineprint {font-weight: 400;
+       	    font-size: 8pt;
+       	    font-family: Arial,Tahoma,sans-serif;
+       	    font-style: normal;
+       	    letter-spacing: 0.02em;
+       	    color: #000000}
+    	     
+.nonstory {font-weight: 400;
+   	    font-size: 10pt;
+   	    font-family: Arial,Tahoma,sans-serif;
+   	    font-style: normal;
+   	    letter-spacing: 0.02em;
+   	    text-align: justify;
+   	    color: #000000;}
+   
+p.hide {font-weight: 400;
+   	font-size: 10pt;
+   	font-style: normal;
+   	letter-spacing: 0.02em;
+   	color: #FFFFFF;}
+   
+.normalwhite {font-weight: 400;
+   	      font-size: 10pt;
+   	      font-family: Arial,Tahoma,sans-serif;
+   	      font-style: normal;
+   	      letter-spacing: 0.02em;
+   	      color: #FFFFFF;}
+   
+.italicwhite {font-weight: 400;
+   	      font-size: 10pt;
+   	      font-family: Arial,Tahoma,sans-serif;
+   	      font-style: italic;
+   	      letter-spacing: 0.02em;
+   	      color: #FFFFFF;}
+   	      
+.boldwhite {font-weight: 700;
+    	    font-size: 10pt;
+    	    font-family: Arial,Tahoma,sans-serif;
+    	    font-style: normal;
+    	    letter-spacing: 0.02em;
+    	    color: #FFFFFF;}
+    
+.italicboldwhite {font-weight: 700;
+    	      	  font-size: 10pt;
+    	      	  font-family: Arial,Tahoma,sans-serif;
+    	     	  font-style: italic;
+    	     	  letter-spacing: 0.02em;
+   	      	  color: #FFFFFF;}
+ 
+   	      	  
+/* For application errors */
+
+.error {font-weight: 400;
+        font-size: 10pt;
+        font-family: Arial,Tahoma,sans-serif;
+        font-style: normal;
+        letter-spacing: 0.02em;
+        color: #FF0000}
+        
+ /* All link styles */
+   	      	   
+ A:link {color: #003366;
+ 	 text-decoration: none;
+ 	 font-weight: 700;}
+ A:visited {color: #003366;
+    	    text-decoration: none;
+    	    font-weight: 700;}
+ A:active {color: #0033CC;
+   	   text-decoration: none;
+   	   font-weight: 700;}
+ A:hover {color: #0033CC;
+ 	  text-decoration: none;
+ 	  font-weight: 700;}
+ 	 
+ A.menu:link {color: #003366;
+ 	      text-decoration: none;}
+ A.menu:visited {color: #003366;
+    	   	 text-decoration: none;}
+ A.menu:active {color: #0033CC;
+   	  	text-decoration: none;}
+ A.menu:hover {color: #0033CC;
+ 	       text-decoration: underline;}
+ 	 
+ A.title:link {color: #003366;
+ 	       text-decoration: none;
+ 	       font-size: 16pt;
+ 	       font-weight: 700;
+ 	       font-family: Arial,Tahoma,sans-serif;
+ 	       letter-spacing: 0.02em;}
+ A.title:visited {color: #003366;
+    	   	  text-decoration: none;
+    	   	  font-size: 16pt;
+    	  	  font-weight: 700;
+    	   	  font-family: Arial,Tahoma,sans-serif;
+    	   	  letter-spacing: 0.02em;}
+ A.title:active {color: #0033CC;
+   	  	 text-decoration: none;
+   	  	 font-size: 16pt;
+   	  	 font-weight: 700;
+   	  	 font-family: Arial,Tahoma,sans-serif;
+   	  	 letter-spacing: 0.02em;}
+ A.title:hover {color: #0033CC;
+ 	 	text-decoration: underline;
+ 	 	font-size: 16pt;
+ 	 	font-weight: 700;
+ 	 	font-family: Arial,Tahoma,sans-serif;
+ 	 	letter-spacing: 0.02em;}
+ 	 	
+  A.search:link {color: #003366;
+  	         text-decoration: none;
+  	         font-size: 10pt;
+  	         font-weight: 700;
+  	         font-family: Arial,Tahoma,sans-serif;
+  	         letter-spacing: 0.02em;}
+  A.search:visited {color: #003366;
+     	   	    text-decoration: none;
+     	   	    font-size: 10pt;
+     	  	    font-weight: 700;
+     	   	    font-family: Arial,Tahoma,sans-serif;
+     	   	    letter-spacing: 0.02em;}
+  A.search:active {color: #0033CC;
+    	  	   text-decoration: none;
+    	  	   font-size: 10pt;
+    	  	   font-weight: 700;
+    	  	   font-family: Arial,Tahoma,sans-serif;
+    	  	   letter-spacing: 0.02em;}
+  A.search:hover {color: #0033CC;
+  	 	  text-decoration: underline;
+  	 	  font-size: 10pt;
+  	 	  font-weight: 700;
+  	 	  font-family: Arial,Tahoma,sans-serif;
+ 	 	  letter-spacing: 0.02em;}
